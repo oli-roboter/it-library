@@ -1,0 +1,32 @@
+{
+  "name": "it-library",
+  "version": "1.0.0",
+  "description": "Personal project to create a reference library for it knowledge",
+  "main": "index.js",
+  "author": "Oliver Wagner",
+  "license": "ISC",
+  "scripts": {
+    "start": "babel-node ./index.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "eslint": "^7.15.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
