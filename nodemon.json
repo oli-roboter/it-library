@@ -1,0 +1,9 @@
+{ 
+  "exec": "npm start",
+  "watch": ["src/*"],
+  "ignore": [],
+  "verbose": true,
+  "env":{
+    "DEBUG": "src:*"
+  }
+}
